@@ -1,0 +1,11 @@
+add tiny_obj_loader.h file in workin directory 
+
+compile yo script with 
+
+g++ main.cpp objLoader/mesh_loader.cpp objLoader/tiny_obj_loader.cc -o main.exe -std=c++11 -IobjLoader.
+
+
+g++ -std=c++17 hello.cpp objLoader/mesh_loader.cpp objLoader/tiny_obj_loader.cc objLoader/loaderObj.cpp -o loaderApp
+
+
+run main.exe
